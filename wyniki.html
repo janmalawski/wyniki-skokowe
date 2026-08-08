@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Wyniki - TestK</title>
+<title>Wyniki - Amatorskie zawody</title>
 <style>
 :root {
   --bg: #0f1720;
@@ -42,7 +42,7 @@ tr:nth-child(even) { background: rgba(255,255,255,0.02); }
 </style>
 </head>
 <body>
-  <h1><span id="compName">TestK</span><span class="badge">Na żywo</span></h1>
+  <h1><span id="compName">Amatorskie zawody</span><span class="badge">Na żywo</span></h1>
   <p class="muted" style="margin:0 0 20px 0; font-size:18px;">
     Trwa: seria <b style="color:var(--primary);"><span id="currentRound">-</span></b>
   </p>
@@ -81,7 +81,7 @@ tr:nth-child(even) { background: rgba(255,255,255,0.02); }
   <div class="footer">Wygenerowano: <span id="genAt">-</span> · Statyczny widok wyników (izolowany od serwera).</div>
 
   <script>
-    const SNAPSHOT = {"competition": {"id": 2, "name": "TestK", "status": "RUNNING", "currentRound": 1}, "series1": [], "series2": [], "final": [], "generatedAt": "2026-08-08T06:00:52.088700+00:00"};
+    const SNAPSHOT = {"competition": {"id": 1, "name": "Amatorskie zawody", "status": "FINISHED", "currentRound": 2}, "series1": [{"rank": 1, "firstName": "Wiktoria", "lastName": "Adamkiewicz", "club": "KS Skocz po marzenia", "locality": "Jarocin", "distanceM": 23.0, "distancePoints": 105.0, "judgesPoints": 2.0, "totalPoints": 107.0}, {"rank": 2, "firstName": "Krzysztof", "lastName": "Leśniak", "club": "LKS Klimczok Bystra", "locality": "Krzywaczka", "distanceM": 5.0, "distancePoints": 15.0, "judgesPoints": 2.0, "totalPoints": 17.0}, {"rank": 3, "firstName": "Jakub", "lastName": "Suliga", "club": "", "locality": "Klecza Dolna", "distanceM": 4.0, "distancePoints": 10.0, "judgesPoints": 5.0, "totalPoints": 15.0}, {"rank": 4, "firstName": "Jan", "lastName": "Burtan", "club": "", "locality": "Krzczonów", "distanceM": 1.0, "distancePoints": 0.0, "judgesPoints": 7.0, "totalPoints": 7.0}, {"rank": 5, "firstName": "Oliver", "lastName": "Kaminski", "club": "Skocz po marzenia", "locality": "Katowice", "distanceM": 2.0, "distancePoints": 0.0, "judgesPoints": 5.0, "totalPoints": 5.0}], "series2": [{"rank": 1, "firstName": "Jan", "lastName": "Burtan", "club": "", "locality": "Krzczonów", "distanceM": 8.0, "distancePoints": 30.0, "judgesPoints": 6.0, "totalPoints": 36.0}, {"rank": 2, "firstName": "Oliver", "lastName": "Kaminski", "club": "Skocz po marzenia", "locality": "Katowice", "distanceM": 3.0, "distancePoints": 5.0, "judgesPoints": 15.0, "totalPoints": 20.0}, {"rank": 3, "firstName": "Jakub", "lastName": "Suliga", "club": "", "locality": "Klecza Dolna", "distanceM": 5.0, "distancePoints": 15.0, "judgesPoints": 4.0, "totalPoints": 19.0}, {"rank": 4, "firstName": "Wiktoria", "lastName": "Adamkiewicz", "club": "KS Skocz po marzenia", "locality": "Jarocin", "distanceM": 4.0, "distancePoints": 10.0, "judgesPoints": 2.0, "totalPoints": 12.0}, {"rank": 5, "firstName": "Krzysztof", "lastName": "Leśniak", "club": "LKS Klimczok Bystra", "locality": "Krzywaczka", "distanceM": 1.0, "distancePoints": 0.0, "judgesPoints": 2.0, "totalPoints": 2.0}], "final": [{"rank": 1, "firstName": "Wiktoria", "lastName": "Adamkiewicz", "club": "KS Skocz po marzenia", "locality": "Jarocin", "round1Points": 107.0, "round2Points": 12.0, "totalPoints": 119.0}, {"rank": 2, "firstName": "Jan", "lastName": "Burtan", "club": "", "locality": "Krzczonów", "round1Points": 7.0, "round2Points": 36.0, "totalPoints": 43.0}, {"rank": 3, "firstName": "Jakub", "lastName": "Suliga", "club": "", "locality": "Klecza Dolna", "round1Points": 15.0, "round2Points": 19.0, "totalPoints": 34.0}, {"rank": 4, "firstName": "Oliver", "lastName": "Kaminski", "club": "Skocz po marzenia", "locality": "Katowice", "round1Points": 5.0, "round2Points": 20.0, "totalPoints": 25.0}, {"rank": 5, "firstName": "Krzysztof", "lastName": "Leśniak", "club": "LKS Klimczok Bystra", "locality": "Krzywaczka", "round1Points": 17.0, "round2Points": 2.0, "totalPoints": 19.0}], "generatedAt": "2026-08-08T06:07:16.577985+00:00"};
   </script>
   <script>
 function esc(s) {
